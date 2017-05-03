@@ -35,7 +35,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.fluence.voicecall=true \
     persist.audio.fluence.voicerec=true \
     persist.audio.fluence.audiorec=false \
-    persist.audio.fluence.speaker=true \
+    persist.audio.fluence.speaker=false \
     tunnel.audio.encode=false \
     media.aac_51_output_enabled=true \
     audio.heap.size.multiplier=7 \
@@ -138,7 +138,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # QCOM
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.frp.pst="/dev/block/bootdevice/by-name/frp" \
     drm.service.enabled=true
 
 # RIL
