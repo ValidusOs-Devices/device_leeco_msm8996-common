@@ -153,7 +153,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
-    fingerprintd
+    fingerprintd \
+    fingerprint.msm8996
 
 # Gello
 PRODUCT_PACKAGES += \
