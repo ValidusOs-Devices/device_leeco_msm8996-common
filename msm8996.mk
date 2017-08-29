@@ -126,8 +126,13 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     Snap \
-    libcamera_shim \
     libstlport
+
+# Shims
+PRODUCT_PACKAGES += \
+    libshims_camera \
+    libshims_get_process_name \
+    libshims_qcamera-daemon
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
