@@ -332,4 +332,7 @@
             2 - Brightness boost
     -->
     <integer name="config_triplePressOnPowerBehavior">2</integer>
+    
+    <!-- doze always on -->
+    <bool name="config_enableDozeAlwaysOn">true</bool>
 </resources>
